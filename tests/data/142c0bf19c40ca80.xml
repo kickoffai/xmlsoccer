@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLSOCCER.COM>
+  <Team xmlns="http://xmlsoccer.com/Team">
+    <Team_Id>77</Team_Id>
+    <Name>Cesena</Name>
+    <Country>Italy</Country>
+    <Stadium>Stadio Dino Manuzzi</Stadium>
+    <HomePageURL>http://www.cesenacalcio.it/</HomePageURL>
+    <WIKILink>http://en.wikipedia.org/wiki/A.C._Cesena</WIKILink>
+    <Coach>Fabrizio Castori</Coach>
+    <Capacity>23900</Capacity>
+  </Team>
+  <Team xmlns="http://xmlsoccer.com/Team">
+    <Team_Id>82</Team_Id>
+    <Name>Novara</Name>
+    <Country>Italy</Country>
+    <Stadium>Stadio Silvio Piola</Stadium>
+    <HomePageURL>http://www.novaracalcio.com/</HomePageURL>
+    <WIKILink>http://en.wikipedia.org/wiki/Novara_Calcio</WIKILink>
+    <Capacity>17875</Capacity>
+    <Manager>Eugenio Corini</Manager>
+  </Team>
+  <Team xmlns="http://xmlsoccer.com/Team">
+    <Team_Id>97</Team_Id>
+    <Name>Verona</Name>
+    <Country>Italy</Country>
+    <Stadium>Stadio Marc'Antonio Bentegodi</Stadium>
+    <HomePageURL>http://www.hellasverona.it</HomePageURL>
+    <WIKILink>http://en.wikipedia.org/wiki/Hellas_Verona_F.C.</WIKILink>
+  </Team>
+  <Team xmlns="http://xmlsoccer.com/Team">
+    <Team_Id>99</Team_Id>
+    <Name>Ascoli</Name>
+    <Country>Italy</Country>
+    <Stadium>Stadio Cino e Lillo Del Duca</Stadium>
+    <HomePageURL>http://www.ascolicalcio.net/</HomePageURL>
+    <WIKILink>http://en.wikipedia.org/wiki/Ascoli_Calcio_1898</WIKILink>
+    <Coach>Serse Cosmi</Coach>
+    <Capacity>20550</Capacity>
+  </Team>
+  <Team xmlns="http://xmlsoccer.com/Team">
+    <Team_Id>101</Team_Id>
+    <Name>Bari</Name>
+    <Country>Italy</Country>
+    <Stadium>Stadio San Nicola</Stadium>
+    <HomePageURL>http://www.asbari.it/</HomePageURL>
+    <WIKILink>http://en.wikipedia.org/wiki/A.S._Bari</WIKILink>
+    <Capacity>58270</Capacity>
+    <Manager>Fabio Grosso</Manager>
+  </Team>
+  <Team xmlns="http://xmlsoccer.com/Team">
+    <Team_Id>103</Team_Id>
+    <Name>Brescia</Name>
+    <Country>Italy</Country>
+    <Stadium>Stadio Mario Rigamonti</Stadium>
+    <HomePageURL>http://www.bresciacalcio.it/</HomePageURL>
+    <WIKILink>http://en.wikipedia.org/wiki/Brescia_Calcio</WIKILink>
+    <Coach>Roberto Boscaglia</Coach>
+    <Capacity>16743</Capacity>
+  </Team>
+  <Team xmlns="http://xmlsoccer.com/Team">
+    <Team_Id>104</Team_Id>
+    <Name>Vicenza</Name>
+    <Country>Italy</Country>
+    <Stadium>Stadio Romeo Menti</Stadium>
+    <HomePageURL>http://www.vicenzacalcio.com/</HomePageURL>
+    <WIKILink>http://en.wikipedia.org/wiki/Vicenza_Calcio</WIKILink>
+    <Capacity>12000</Capacity>
+    <Manager>Nicola Zanini</Manager>
+  </Team>
+  <Team xmlns="http://xmlsoccer.com/Team">
+    <Team_Id>105</Team_Id>
+    <Name>Cittadella</Name>
+    <Country>Italy</Country>
+    <Stadium>Cittadella</Stadium>
+    <HomePageURL>http://www.ascittadella.it/</HomePageURL>
+    <WIKILink>http://en.wikipedia.org/wiki/A.S._Cittadella</WIKILink>
+    <Capacity>7623</Capacity>
+    <Manager>Roberto Venturato</Manager>
+  </Team>
+  <Team xmlns="http://xmlsoccer.com/Team">
+    <Team_Id>234</Team_Id>
+    <Name>Frosinone</Name>
+    <Country>Italy</Country>
+    <Stadium>Stadio Matusa</Stadium>
+    <HomePageURL>http://www.frosinonecalcio.com/index.php</HomePageURL>
+    <WIKILink>http://en.wikipedia.org/wiki/Frosinone_Calcio</WIKILink>
+    <Capacity>16125</Capacity>
+    <Manager>Moreno Longo</Manager>
+  </Team>
+  <Team xmlns="http://xmlsoccer.com/Team">
+    <Team_Id>262</Team_Id>
+    <Name>Salernitana</Name>
+    <Country>Italy</Country>
+    <Stadium>Stadio Arechi</Stadium>
+    <HomePageURL />
+    <WIKILink>http://en.wikipedia.org/wiki/Salerno_Calcio</WIKILink>
+    <Capacity>31300</Capacity>
+    <Manager>Stefano Colantuono</Manager>
+  </Team>
+  <Team xmlns="http://xmlsoccer.com/Team">
+    <Team_Id>274</Team_Id>
+    <Name>Avellino</Name>
+    <Country>Italy</Country>
+    <Stadium>Stadio Partenio</Stadium>
+    <HomePageURL>http://www.asavellino.it/</HomePageURL>
+    <WIKILink>http://en.wikipedia.org/wiki/A.S._Avellino_1912</WIKILink>
+    <Capacity>26308</Capacity>
+    <Manager>Walter Novellino</Manager>
+  </Team>
+  <Team xmlns="http://xmlsoccer.com/Team">
+    <Team_Id>275</Team_Id>
+    <Name>Pisa</Name>
+    <Country>Italy</Country>
+    <Stadium>Arena Garibaldi – Romeo</Stadium>
+    <HomePageURL>http://www.acpisa1909.it/</HomePageURL>
+    <WIKILink>http://en.wikipedia.org/wiki/A.C._Pisa_1909</WIKILink>
+    <Capacity>25000</Capacity>
+    <Manager>Michele Pazienza</Manager>
+  </Team>
+  <Team xmlns="http://xmlsoccer.com/Team">
+    <Team_Id>295</Team_Id>
+    <Name>Spezia</Name>
+    <Country>Italy</Country>
+    <Stadium>Stadio Alberto Picco</Stadium>
+    <HomePageURL>http://www.acspezia.com/</HomePageURL>
+    <WIKILink>http://en.wikipedia.org/wiki/Spezia_Calcio</WIKILink>
+    <Capacity>10336</Capacity>
+    <Manager>Fabio Gallo</Manager>
+  </Team>
+  <Team xmlns="http://xmlsoccer.com/Team">
+    <Team_Id>392</Team_Id>
+    <Name>Pro Vercelli</Name>
+    <Country>Italy</Country>
+    <Stadium>Stadio Silvio Piola</Stadium>
+    <HomePageURL>http://www.fcprovercelli.it/</HomePageURL>
+    <WIKILink>http://en.wikipedia.org/wiki/F.C._Pro_Vercelli_1892</WIKILink>
+    <Coach>Gianluca Grassadonia</Coach>
+    <Capacity>5500</Capacity>
+  </Team>
+  <Team xmlns="http://xmlsoccer.com/Team">
+    <Team_Id>393</Team_Id>
+    <Name>Ternana</Name>
+    <Country>Italy</Country>
+    <Stadium>Stadio Libero Liberati</Stadium>
+    <HomePageURL>http://www.ternanacalcio.com/</HomePageURL>
+    <WIKILink>http://en.wikipedia.org/wiki/Ternana_Calcio</WIKILink>
+    <Capacity>22000</Capacity>
+    <Manager>Sandro Pochesci</Manager>
+  </Team>
+  <Team xmlns="http://xmlsoccer.com/Team">
+    <Team_Id>688</Team_Id>
+    <Name>Perugia</Name>
+    <Country>Italy</Country>
+    <Stadium>Stadio Renato Curi</Stadium>
+    <HomePageURL>http://www.acperugiacalcio.it/index.php</HomePageURL>
+    <WIKILink>http://en.wikipedia.org/wiki/A.C._Perugia_Calcio</WIKILink>
+    <Capacity>28000</Capacity>
+    <Manager>Roberto Breda</Manager>
+  </Team>
+  <Team xmlns="http://xmlsoccer.com/Team">
+    <Team_Id>861</Team_Id>
+    <Name>Trapani</Name>
+    <Country>Italy</Country>
+    <Stadium>Stadio Polisportivo Provinciale</Stadium>
+    <HomePageURL>http://www.trapanicalcio.it/</HomePageURL>
+    <WIKILink>http://en.wikipedia.org/wiki/Trapani_Calcio</WIKILink>
+    <Capacity>7000</Capacity>
+    <Manager>Alessandro Calori</Manager>
+  </Team>
+  <Team xmlns="http://xmlsoccer.com/Team">
+    <Team_Id>862</Team_Id>
+    <Name>Latina</Name>
+    <Country>Italy</Country>
+    <Stadium>Stadio Domenico Francioni</Stadium>
+    <HomePageURL>http://www.uslatinacalcio.it/</HomePageURL>
+    <WIKILink>http://en.wikipedia.org/wiki/U.S._Latina_Calcio</WIKILink>
+    <Capacity>9398</Capacity>
+    <Manager>Andrea Chiappini</Manager>
+  </Team>
+  <Team xmlns="http://xmlsoccer.com/Team">
+    <Team_Id>863</Team_Id>
+    <Name>Carpi</Name>
+    <Country>Italy</Country>
+    <Stadium>Stadio Sandro Cabassi</Stadium>
+    <HomePageURL>http://www.carpifc1909.it/</HomePageURL>
+    <WIKILink>http://en.wikipedia.org/wiki/Carpi_F.C._1909</WIKILink>
+    <Capacity>5500</Capacity>
+    <Manager>Giandomenico Costi (caretaker)</Manager>
+  </Team>
+  <Team xmlns="http://xmlsoccer.com/Team">
+    <Team_Id>1096</Team_Id>
+    <Name>Entella</Name>
+    <Country>Italy</Country>
+    <Stadium>Stadio Comunale</Stadium>
+    <HomePageURL>http://www.entella.it/</HomePageURL>
+    <WIKILink>http://en.wikipedia.org/wiki/Virtus_Entella</WIKILink>
+    <Capacity>5535</Capacity>
+    <Manager>Alfredo Aglietti</Manager>
+  </Team>
+  <Team xmlns="http://xmlsoccer.com/Team">
+    <Team_Id>1128</Team_Id>
+    <Name>SPAL 2013</Name>
+    <Country>Italy</Country>
+    <Stadium>Stadio Paolo Mazza</Stadium>
+    <HomePageURL>http://www.spal2013.it/index.php?c=3/</HomePageURL>
+    <WIKILink>http://en.wikipedia.org/wiki/S.P.A.L._2013</WIKILink>
+    <Capacity>13100</Capacity>
+    <Manager>Leonardo Semplici</Manager>
+  </Team>
+  <Team xmlns="http://xmlsoccer.com/Team">
+    <Team_Id>1153</Team_Id>
+    <Name>Benevento</Name>
+    <Country>Italy</Country>
+    <Stadium>Stadio Ciro Vigorito</Stadium>
+    <HomePageURL>http://www.beneventocalciospa.it/</HomePageURL>
+    <WIKILink>http://en.wikipedia.org/wiki/Benevento_Calcio</WIKILink>
+    <Manager>Roberto De Zerbi</Manager>
+  </Team>
+  <AccountInformation>Data requested at 3/28/2018 1:55:38 PM from 128.178.151.213, Username: lum. Your current supscription runs out on 4/27/2018 9:44:38 AM.</AccountInformation>
+</XMLSOCCER.COM>
