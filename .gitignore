@@ -1,3 +1,5 @@
+/_meta/
+
 # Compiled python modules.
 *.pyc
 
@@ -16,3 +18,4 @@
 # pytest-related.
 htmlcov/
 .coverage
+.pytest_cache/
