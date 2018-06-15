@@ -32,6 +32,8 @@ def parse_fixtures(text):
     root = etree.XML(text)
     data = list()
     for match_elem in root:
+        if match_elem.tag != "Match":
+            continue
         datum = dict()
         for x in match_elem:
             if x.tag == "Id":
