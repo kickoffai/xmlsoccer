@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<XMLSOCCER.COM>
+  <Match>
+    <Id>386858</Id>
+    <Date>2018-06-17T12:00:00+00:00</Date>
+    <League>World Cup 2018</League>
+    <Round>1</Round>
+    <HomeTeam>Costa Rica</HomeTeam>
+    <HomeTeam_Id>965</HomeTeam_Id>
+    <AwayTeam>Serbia</AwayTeam>
+    <AwayTeam_Id>4842</AwayTeam_Id>
+    <Time>Not started</Time>
+    <HomeGoals>0</HomeGoals>
+    <AwayGoals>0</AwayGoals>
+    <HomeGoalDetails />
+    <AwayGoalDetails />
+    <HomeLineupGoalkeeper>Keylor Navas; </HomeLineupGoalkeeper>
+    <AwayLineupGoalkeeper>Vladimir Stojkovic; </AwayLineupGoalkeeper>
+    <HomeLineupDefense>Cristian Gamboa; Johnny Acosta; Giancarlo Gonzalez; Oscar Duarte; Bryan Oviedo; </HomeLineupDefense>
+    <AwayLineupDefense>Branislav Ivanovic; Nikola Milenkovic; Dusko Tosic; Aleksandar Kolarov; </AwayLineupDefense>
+    <HomeLineupMidfield>Bryan Ruiz; Celso Borges; David Guzman; Christian Bolanos; </HomeLineupMidfield>
+    <AwayLineupMidfield>Nemanja Matic; Sergej Milinkovic-Savic; Dusan Tadic; Adem Ljajic; Filip Kostic; </AwayLineupMidfield>
+    <HomeLineupForward>Marco Urena; </HomeLineupForward>
+    <AwayLineupForward>Aleksandar Mitrovic; </AwayLineupForward>
+    <HomeLineupSubstitutes />
+    <AwayLineupSubstitutes />
+    <HomeSubDetails />
+    <AwaySubDetails />
+    <Location />
+    <Stadium />
+    <AwayTeamYellowCardDetails />
+    <HomeTeamRedCardDetails />
+    <AwayTeamRedCardDetails />
+  </Match>
+  <AccountInformation>Data requested at 6/17/2018 12:34:23 PM from 194.230.211.210, Username: lum. Your current supscription runs out on 6/13/2019 3:47:14 PM.</AccountInformation>
+</XMLSOCCER.COM>

@@ -44,3 +44,21 @@ def test_get_fixtures(client):
         "away_goals": 0,
         "location": "Bobby Dodd Stadium"
     }
+
+
+def test_get_fixtures(client):
+    res = client.get_live_scores(league="World Cup 2018")
+    assert len(res) == 1
+    print(res[0])
+    assert res[0] == {
+        "fid": 386858,
+        "datetime": datetime.datetime(2018, 6, 17, 12, 0, tzinfo=datetime.timezone.utc),
+        "home_team": "Costa Rica",
+        "home_team_id": 965,
+        "away_team": "Serbia",
+        "away_team_id": 4842,
+        "time": "Not started",
+        "home_goals": 0,
+        "away_goals": 0,
+        "location": None
+    }

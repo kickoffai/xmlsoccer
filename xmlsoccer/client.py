@@ -24,6 +24,13 @@ class Client:
                 league=league)
         return parse_fixtures(res)
 
+    def get_live_scores(self, *, league):
+        """Get live scores given a league."""
+        res = self._get(
+                "GetLiveScoreByLeague",
+                league=league)
+        return parse_fixtures(res)
+
     def _get(self, method, **payload):
         payload["ApiKey"] = self._key
         url = "{}/{}".format(ENDPOINT, method)
