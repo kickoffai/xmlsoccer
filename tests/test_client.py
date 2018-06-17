@@ -16,7 +16,7 @@ def test_get_odds(client):
     assert res[32] == {
         "fid": 386834,
         "bookmaker": "Betrally",
-        "updated_at": datetime.datetime(2018, 5, 30, 7, 18, 36, 400000),
+        "updated_at": datetime.datetime(2018, 5, 30, 7, 18, 36),
         "type": "Over/Under",
         "home_odds": 23.75,
         "away_odds": 1.0,
