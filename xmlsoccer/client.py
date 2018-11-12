@@ -1,16 +1,19 @@
 import requests
 
-from .parsers import parse_odds, parse_fixtures
-
-
-ENDPOINT = "http://www.xmlsoccer.com/FootballData.asmx"
+from .parsers import *
 
 
 class Client:
 
-    def __init__(self, key):
+    def __init__(self, key, endpoint='http://www.xmlsoccer.com/FootballData.asmx'):
         self._key = key
+        self._endpoint = endpoint
 
+    def get_all_leagues(self):
+        """Get all available leagues."""
+        res = self._get("GetAllLeagues")
+        return parse_leagues(res)
+        
     def get_odds(self, *, fid):
         """Get all odds for a given fixture id."""
         res = self._get("GetAllOddsByFixtureMatchId", fixtureMatch_Id=fid)
@@ -33,6 +36,6 @@ class Client:
 
     def _get(self, method, **payload):
         payload["ApiKey"] = self._key
-        url = "{}/{}".format(ENDPOINT, method)
+        url = "{}/{}".format(self._endpoint, method)
         res = requests.post(url, data=payload)
         return res.content
