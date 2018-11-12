@@ -24,7 +24,8 @@ def parse_odds(text):
                 datum["away_odds"] = float(x.text)
             elif x.tag == "Handicap":
                 datum["handicap"] = float(x.text)
-        data.append(datum)
+        if datum:
+            data.append(datum)
     return data
 
 
@@ -56,5 +57,35 @@ def parse_fixtures(text):
                 datum["away_goals"] = int(x.text)
             elif x.tag == "Location":
                 datum["location"] = x.text
-        data.append(datum)
+        if datum:
+            data.append(datum)
+    return data
+
+
+def parse_leagues(text):
+    root = etree.XML(text)
+    data = list()
+    for odds_elem in root:
+        datum = dict()
+        for x in odds_elem:
+            if x.tag == "Id":
+                datum["id"] = int(x.text)
+            elif x.tag == "Name":
+                datum["name"] = x.text
+            elif x.tag == "Country":
+                datum["country"] = x.text
+            elif x.tag == "Historical_Data":
+                datum["historical_data"] = utils.parse_bool(x.text)
+            elif x.tag == "Fixtures":
+                datum["fixtures"] = utils.parse_bool(x.text)
+            elif x.tag == "Livescore":
+                datum["livescore"] = utils.parse_bool(x.text)
+            elif x.tag == "NumberOfMatches":
+                datum["number_of_matches"] = int(x.text)
+            elif x.tag == "LatestMatch":
+                datum["latest_match"] = utils.parse_dt(x.text)
+            elif x.tag == "IsCup":
+                datum["is_cup"] = utils.parse_bool(x.text)
+        if datum:
+            data.append(datum)
     return data
